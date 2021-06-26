@@ -1,0 +1,332 @@
+
+/*mobile & tablet*/
+@media (max-width : 1203px){
+    
+}
+
+/*MÁY TÍNH ĐỘ PHÂN GIẢI THẤP*/
+@media  (max-width : 1203px){
+    .head-form::after {
+        width: 425px;
+        background-size: cover;
+    }
+    .head-form .row {
+        flex-direction: column;
+    }
+    .head-form  .l-4 {
+        width: 1200px;
+    }
+    .head-form .head-right {
+        width: 100%;  
+    }
+    .head-box-text {
+        margin-top: 115px;
+        max-width: 100%;
+        width: 540px;
+    }
+    .head-box-text::after {
+        background-size: contain;
+        top: -119px;
+    }
+    
+    .donors img {
+        margin-right: 70px;
+        width: 55px;
+        margin: 0 auto;
+    }
+    
+    .program-right {
+        margin: 0;
+    }
+    .program-right-content {
+        width: 100%;
+    }
+    .program-left {
+        margin-top: 60px;
+    }
+    .roadmap-content {
+        width: 300px;
+    }
+    .roadmap-head {
+        width: 90%;
+    }
+    .codelearn-image {
+        width: 100%;  
+        margin-top: 75px;
+    }
+    .codelearn-image img {
+        width: 450px;
+    }
+    .codelearn-list {
+        margin: 0;
+    }
+    .codelearn-item p {
+        font-size: 22px;
+    }
+    .program {
+        padding: 0 30px;
+    }
+    .roadmap {
+        padding: 0 30px;
+    }
+    .roadmap-content {
+        width: 270px;
+        margin: 0 auto;
+    }
+    .codelearn-main {
+        padding: 0 30px;
+    }
+    .codelearn-image img {
+        width: 100%;
+    }
+    .codelearn-item {
+        width: 100%;
+    }
+    .codelearn-item p {
+        font-size: 20px;
+    }
+    .our {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .our-image {
+        width: 100%;
+    }
+    .our-image img {
+        width: 300px;
+    }
+    .our-text {
+        margin-top: unset;
+    }
+    .footer-category {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+}
+/*IPAD pro*/
+@media  (max-width : 1024px) {
+    .navigation {
+        display: none;
+    }
+    .header {
+        justify-content: space-between;
+    }
+    .head-form::after {
+        background-size: cover;
+        width: 527px;
+    height: 495px;
+    }
+    .navigation-logo {
+        width: unset;
+    }
+    .navigation-form {
+        width: unset;
+    }
+    .navigation-bar {
+        display: block;
+    }
+    .navigation-bar {
+        margin-left: 15px;
+        font-size: 26px;
+    }
+    .head-form {
+        padding: 0 15px;
+       
+    }
+    .total {
+        padding: 45px 0px;
+    }
+    .codelearn-item p {
+        font-size: 14px;
+    }
+    .codelearn-item img {
+        width: 40px;
+        height: 40px;
+
+    }
+    .footer-banner {
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .footer-banner-heading {
+        margin-bottom: 20px;
+    }
+}
+
+/*ipad*/
+@media (max-width : 768px){
+    .head-box-text::after {
+        background-image: none;
+    }
+    .head-box-text {
+        margin-top: unset;
+        margin-left: unset;
+    }
+    .head-box-text h1 {
+        font-weight: bold;
+    }
+    .content {
+        margin: 40px;
+    }
+    .content p {
+        font-size: 35px;
+    }
+    .program-right-content-head span i {
+        font-size: 40px;
+    }
+    .program-right-content-head span h2 {
+        font-size: 24px;
+    }
+    .program-right-content {
+        margin-bottom: 45px;
+    }
+    .total-button button {
+        margin-top: unset;
+    }
+    .roadmap {
+        margin-bottom: unset;
+    }
+    .roadmap-content {
+        margin-bottom: 45px;
+    }
+    .codelearn-image {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .codelearn {
+        padding: 20px 10px;
+        margin-bottom: 20px;
+    }
+    .codelearn-list {
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .codelearn-item {
+        width: 50%;
+      
+    }
+    .codelearn-item p {
+        font-size: 14px;
+    }
+    .our-text {
+        width: 700px;
+    }
+    .our-image {
+        width: 700px;
+    }
+    .our-image img {
+        width: 100%;
+    }
+    .footer-banner-heading h2 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .footer-banner-heading h4 {
+        font-size: 28px;
+    }
+    .our {
+        padding: 0px 10px;
+    }
+    .our-text {
+        width: 100%;
+        text-align: center;
+    }
+    .out-text {
+        font-size: 46px;
+    }
+    .our-text p {
+        font-size: 16px;
+    }
+    .our-image {
+        width: 100%;
+    }
+    .footer-banner-heading h2 {
+        font-size: 30px;
+    }
+    .footer-banner-heading h4 {
+        font-size: 20px;
+    }
+    .footer-category-logo {
+        margin-bottom: 20px;
+    }
+    .footer-category-item ul {
+        padding: 0;
+    }
+
+/*mobile*/
+@media (max-width : 739px){
+    .header {
+        height: 58px;
+    padding: 9px 8px;
+    margin-bottom: 30px;
+    }
+    .head-form::after {
+        width: 244px;
+    height: 227px;
+    }
+    .head-form {
+        margin-bottom: 30px;
+    }
+    .head-box-text {
+        height: 304px;
+    }
+    .donors {
+        display: none;
+    }
+    .content {
+       margin-top: 0px;
+       margin-left: 0px;
+       margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .content p {
+        font-size: 25px;
+        line-height: unset;
+        margin: 0;
+    }
+    .program {
+        padding: 0 10px;
+    }
+    .program-left {
+        width: 400px;
+        margin-top: unset;
+    }
+    .program-right-content-head span h2 {
+        font-size: 20px;
+
+    }
+    .program-right-content-head span i {
+        font-size: 33px
+    }
+    .program-right-content-bottom p{
+        font-size: 14px;
+    }
+    .total {
+        height: 560px;
+        margin-bottom: 35px;
+    }
+    .total-content {
+        width: 400px;
+        margin: 0 auto 30px auto;
+        text-align: center;
+    }
+    .roadmap-content {
+        width: 100%;
+    }
+    .codelearn-image {
+        width: 650px;
+        margin: 0 auto;
+    }
+    .codelearn-item {
+        width: 100%;
+    }
+}  
+
+/*Fix*/
+@media (max-width : 1178px){
+    .navigation-link {
+        font-size: 16px;
+    }
+}

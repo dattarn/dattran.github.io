@@ -1,0 +1,616 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid rgb(196, 190, 190);
+    width: 100%;
+    
+}
+.header-left {
+display: flex;
+}
+.header-left a {
+    display: flex;
+}
+.header-left img{
+height: 50px;
+width: 130px;
+cursor: pointer;
+margin: auto;
+margin-left: 20px;
+
+}
+.header-left ul{
+display: flex;
+}
+.header-left li{
+    list-style: none;
+}
+.header-left .navigation-link:hover {
+    text-decoration: none;
+    color: #2c31cf;
+}
+.header-left .navigation-link:hover::after{
+    content: "";
+    border-bottom: 3px solid #2c31cf;
+    position: absolute;
+    top: 40px;
+    right: 1px;
+    width: 100%;
+}
+.header-left .navigation-link{
+text-decoration: none;
+color: #3b3c54;
+font-weight: 600;
+font-size: 17px;
+margin-right: 29px;
+
+line-height: 35px;
+position: relative;
+transition: linear 0.3s ease;
+}
+.navigation-link-active {
+    text-decoration: none;
+color: #2c31cf;
+font-weight: 600;
+font-size: 17px;
+margin-right: 29px;
+
+line-height: 35px;
+position: relative;
+margin-right: 29px;
+display: block;
+}
+.navigation-link-active::after {
+    content: "";
+    border-bottom: 3px solid #2c31cf;
+    position: absolute;
+    top: 40px;
+    right: 1px;
+    width: 100%;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    justify-content: flex-end;
+    
+}
+.header-right img{
+width: 30px;
+height: 30px;
+cursor: pointer;
+
+}
+.header-right .learning-login-button:hover {
+    background-color: #4d96ff;
+    color: white;
+}
+.header-right .learning-login-button{
+    width: 90px;
+height: 38px;
+border-width: 0px;
+background-color: transparent;
+color: black;
+font-weight: bold;
+border-radius: 4px;
+transition: linear 300ms;
+cursor: pointer;
+margin-left: 20px
+}
+.header-right .learning-register-button:hover {
+    background-color: #4d96ff;
+}
+.header-right .learning-register-button{
+    width: 90px;
+    height: 38px;
+    border-width: 0px;
+    background-color: #e8505b;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: linear 300ms;
+    margin-right: 20px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.class {
+    position: relative;
+    top: 73px;
+    margin-bottom: 82px;
+    
+}
+.class span a:hover {
+        color: black;
+        text-decoration: underline;
+}
+.class span a {
+        color: #4d96ff;
+        text-decoration: none;
+        font-size: 13px;
+}
+.class i {
+        color: #4d96ff;
+        margin: 0 5px;
+        font-size: 13px;
+}
+.main {
+    padding: 0 80px;
+    background-color: #f1f1f1;
+}
+.main-banner {
+    background-image: url(https://codelearn.io/Themes/TheCodeCampPro/Resources/Images/challenge/bg-challenge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 30px;
+    border-top-left-radius: 3px;
+   border-top-right-radius: 3px;
+}
+.main-banner-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-banner-logo img{
+width: 70%;
+}
+.main-banner-logo p{
+color: #fff41b;
+font-size: 13px;
+}
+.manin-banner-info{
+}
+.manin-banner-info-day{
+
+}
+.manin-banner-info-day p{
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+}
+.main-banner-info-heading{
+    
+}
+.main-banner-info-heading h1{
+color: #fff41b;
+margin: 5px 0px;
+}
+.main-banner-info-heading p{
+ width : 60px;
+ height: 25px;
+ font-size: 12px;
+ background-color: #3c2570;
+ border-radius: 3px;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.main-banner-info-number{
+margin-bottom: 15px;
+
+}
+.main-banner-info-number span {
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.main-banner-info-note{
+display: flex;
+}
+.main-banner-info-note-text {
+    width: 80%;
+}
+.main-banner-info-note-text span{
+    color: white;
+    font-size: 13px;
+   
+}
+.main-banner-info-note-button {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-banner-info-note-button button {
+    border-width: 0px;
+    border-radius: 3px;
+    width: 120px;
+    height: 40px;
+    background: linear-gradient(90deg,#67d690 0%,#00a99d 100%);
+    box-shadow: 0 2px 10px 0 rgb(0, 0 ,0 , 50%);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.main-ranking {
+display: flex;
+justify-content: space-between;
+position: relative;
+padding: 5px 20px;
+background-color: white;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+.main-ranking-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-ranking-select:hover ul {
+display: block;
+}
+.main-ranking-select p {
+padding: 0 10px;
+width: 170px;
+height: 35px;
+border: 1px solid black;
+border-radius: 3px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 14px;
+cursor: pointer;
+position: relative;
+
+}
+.main-ranking ul {
+    width: 170px;
+    border: solid 1px #ddd;
+    box-shadow: 0 0 20px 6px rgb(29, 31, 89, 10%);
+    position: absolute;
+    top: 45px;
+    padding: 0;
+    display: none;
+    background-color: white;
+   
+}
+.main-ranking ul li:hover {
+    color: white;
+    background-color: #4d96ff;
+}
+.main-ranking ul li {
+list-style: none;
+margin-bottom: 5px;
+text-align: center;
+cursor: pointer;
+}
+.main-toltal {
+ background-color: white;
+ margin-top: 10px;
+ border-radius: 3px;
+ padding: 0px 0 30px 0px;
+}
+.main-toltal ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.main-toltal ul li {
+ border-bottom: 1px solid #d4d5dd;
+
+}
+.main-toltal-rank{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.main-toltal-laungue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.main-toltal-point{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-toltal-point p{
+color: #e8505b;
+
+}
+.main-toltal-point p span {
+    color: #b3b4c9;
+}
+.main-toltal-time{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-toltal-time span{
+
+}
+
+
+
+/*item*/
+.item{
+    display: flex; 
+    height: 100px;
+   
+    align-items: center;
+}
+.item .avatar {
+        width: 60px;
+        margin-top: 50px;
+}
+.item .avatar-frames{
+        width: 60px;
+        height: 60px;
+    position: relative;
+}
+.item .avatar-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    top: -60px;
+    right: -10px;
+}
+.item .user {
+
+}
+.item .user a {
+    text-decoration: none;
+    font-weight: 600;
+}
+.item .user-name {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;   
+}
+
+.main-control-task {
+    text-align: center;
+    margin-top: 30px;
+}
+.main-control-task .button:hover {
+    background-color: #2c31cf;
+    color: white;
+}
+.main-control-task .button {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 0px;
+    background-color: white;
+    color: #2c31cf;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 3px;
+}
+.main-control-task .button-primary {
+    background-color: #2c31cf;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 0px;
+    margin-right: 3px;
+}
+.other {
+    background-color: #f1f1f1;
+    padding: 70px 80px 50px;
+}
+.other-name {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.other-name a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.other-name h1 {
+    font-weight: 700;
+    color: #1e266d;
+    margin: 0;
+}
+.other-main:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgb(188, 188, 188 ,80%);
+}
+.other-main {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.other-main-item {
+    padding: 18px 20px;
+}
+.other-main-item .day span{
+    font-size: 14px;
+    color: #65656d;
+}
+.other-main-item .tilte h3 {
+display : -webkit-box ;            
+ -webkit-box-orient : vertical;  
+ -webkit-line-clamp : 2;           
+overflow : hidden;
+text-overflow : ellipsis;
+margin: 10px 0px 20px 0px;
+}
+.other-main-item .list-user {
+margin-left: 20px;
+}
+.other-main-item .list-user ul{
+    margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.lisk-user-item {
+    display: flex;
+    height: 40px;
+    margin-bottom: 15px;
+    align-items: center;
+  
+}
+.lisk-user-item .rank img {
+    width: 20px;
+    height: 20px;
+}
+
+ .lisk-user-item .avatar {
+    width: 40px;
+    position: relative;
+    top: 20px;
+    margin: 0 20px;
+}
+ .lisk-user-item .avatar-frames{
+    width: 40px;
+    height: 60px;
+position: relative;
+}
+.lisk-user-item .avatar-image{
+width: 30px;
+height: 30px;
+border-radius: 50px;
+position: relative;
+top: -53px;
+ right: -5px;
+}
+.lisk-user-item .name a {
+    text-decoration: none;
+    color: #2c31cf;
+}
+.btn-challenge span {
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #f5f6f7;
+    color: #65656d;
+    font-size: 12px;
+    padding: 7px;
+}
+.other-main-bottom {
+    width: 100%;
+    background-color: #f5f6f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 18px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.other-main-bottom span {
+    margin-right: 5px;
+}
+
+footer {
+   
+    border-top: 2px solid rgb(219, 214, 214);
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto; 
+    padding: 30px 80px;
+
+}
+
+.footer .footer-category-logo p{
+    font-size: 20px;
+}
+.footer-category-item a:hover {
+    color: #2c31cf;
+}
+.footer-category-item a {
+    text-decoration: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-category-logo img{
+    margin-bottom: px;
+}
+.footer-category-logo-mxh i {
+font-size: 35px;
+cursor: pointer;
+}
+.footer-category-logo-mxh .icoin-fb:hover {
+    color:#2c477e ;
+}
+.footer-category-logo-mxh .icoin-fb{
+color: #36589d;
+transform: ;
+}
+.footer-category-logo-mxh .icoin-ytb:hover{
+    color:#8e0c0c ;
+}
+.footer-category-logo-mxh .icoin-ytb{
+color: #b21010;
+}
+.footer-category-logo-mxh .icoin-tw:hover{
+    color:#0081c7 ;
+}
+.footer-category-logo-mxh .icoin-tw{
+color: #0081c7;
+}
+.footer-category-logo-mxh .icoin-ins:hover {
+    color: #981572;
+}
+.footer-category-logo-mxh .icoin-ins{
+color: #bf1b8f;
+}
+.footer-category-item ul {
+text-align: left;
+}
+.footer-category-item h3 {
+    font-size: 24px;
+    color: #2c31cf;
+}
+
+.footer-category-item li {
+list-style: none;
+}
+.footer-category-item a:hover {
+right: -4px;
+text-decoration: none;
+}
+.footer-category-item a {
+color: #666 ;
+position: relative;
+right: 0;
+transition: right linear 0.1s;
+display: inline-block;
+
+}
+.footer-end {
+    width: 100%;
+    height: 50px;
+    background-color: #1c1d31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer-end img {
+    width: 50px;
+    margin-right: 20px;
+
+}
+.footer-end span {
+    color: white;
+    font-size: 14px;
+}
